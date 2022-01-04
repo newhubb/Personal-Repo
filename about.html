@@ -1,19 +1,213 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-  <title>About</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after .row::after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: middel;
+  width: 35.3%;
+  margin-bottom: 17px;
+  padding: 0 9px;
+}
+
+.card {
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.5);
+  margin: 10px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 19px;
+}
+
+.container::after, {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+footer {
+        position: relative;
+        height: 200px;
+        width: 100%;
+        background-color: #FFFFFF;
+    }
+
+    p.copyright {
+        position: absolute;
+        width: 100%;
+        color: #000000;
+        line-height: 60px;
+        font-size: 0.8em;
+        text-align: center;
+        bottom:0;
+    }
+
+
+
+</style>
 </head>
+<body>
+<!-- Sidebar -->
+<div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+  <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
+  <a href="C:\Users\aj\Music/abuali/myskill.html" class="w3-bar-item w3-button">My Skills </a>
+  <a href=" C:\Users\aj\Music/abuali/portfolio.html " class="w3-bar-item w3-button"> portfolio </a>
+  <a href="C:\Users\aj\Music/abuali/experience.html" class="w3-bar-item w3-button">experience </a>
+  <a href="C:\Users\aj\Music/abuali/contact me.html" class="w3-bar-item w3-button">contact me </a>
+  <a href="C:\Users\aj\Music/abuali/cooking.html" class="w3-bar-item w3-button">cooking videos </a>
+  <a href="C:\Users\aj\Music/abuali/about.html" class="w3-bar-item w3-button">About me </a>
 
-<body bgcolor= "orange" >
 
- <a href= " index.html"> "index page" </a>
+</div>
 
-  <h1>About Us</h1>
-  <p>Welcome to our site and we are happy.
-to support you with all the information 
-that you need it.
- </p>
 
-</body>
+<!-- Page Content -->
+<div class="w3-teal">
+  <button class="w3-button w3-teal w3-xlarge" onclick="w3_open()">☰</button>
+  <div class="w3-container">
+    <h1> About Me </h1>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+<div class="section">
+        <div class="container">
+          <div class="button-container">
+
+
+</div>
+</div>
+
+</div>
+
+<div class="section" id="   About ">
+  <div class="container">
+    <div class="card" data-aos="fade-up" data-aos-offset="10">
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <div class="card-body">
+            <div class="h4 mt-0 title">   </div> <br>
+            <p> Hi.... I am Hanan Farah. Student in Web Developer..</p>
+            <p>My goals are creating websites and applications!</p>
+            <p>for any  help  in my variety of works 
+          that we offer in the site my ... </p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <div class="card-body">
+            <div class="h4 mt-0 title"></div>
+            <div class="row mt-3">
+              <div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
+              <div class="col-sm-8">stanfordacc@outlook.com</div><br>
+            </div>
+            <div class="row mt-3">
+              <div class="col-sm-4"><strong class="text-uppercase">Phone:</strong></div>
+              <div class="col-sm-8">(+61) 0408000000</div><br>
+            </div>
+            <div class="row mt-3">
+              <div class="col-sm-4"><strong class="text-uppercase">Address:</strong></div>
+              <div class="col-sm-8">Sydney. Australia</div><br>
+           <br> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</ body >
 </html>
+
+
+
+
+
+
